@@ -1,0 +1,55 @@
+ul{
+
+}
+/*all the children*/
+ul.hashtags {
+  list-style: none;
+}
+ul .hashtags{}
+
+/*all the direct children*/
+ul.hashtags > li {
+  display: inline;
+  padding: 5px;
+  color: white;
+  border-radius: 10px;
+  background: #000;
+}
+
+/*Adding '#' before the tag*/
+/*pseudo class example*/
+ul.hashtags > li::before {
+  content: '#';
+}
+
+ul.hashtags > li:hover {
+  border-bottom: 3px solid red;
+ }
+
+ul.hashtags--inline-block > li {
+  display: inline-block;
+  padding: 5px;
+  color: white;
+  border-radius: 10px;
+  background: blue;
+
+  display: none;
+
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  background: #444;
+  position: absolute; /*static override top left values*/
+  top: 100px;
+  left: 100px;
+}
+.container{
+  width: 500px;
+  height: 500px;
+  background: #ffff64;
+  position: fixed; /*doesn't move from position on page when scrolling. Use relative when you dont know the top.left,right or bottom or when you dont want to position this element to a specfic spot*/
+  top: 100px;
+  left: 100px;
+}

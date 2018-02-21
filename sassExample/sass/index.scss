@@ -1,0 +1,49 @@
+$my-border: 6px solid black;
+$padding-cell: 10px;
+
+*{box-sizing: border-box;}
+
+body{
+  border:$my-border;
+  //FIX display:
+  height: 100vh;
+  width: 80vw;
+  //FIX margin:
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+section{
+  //FIX display:
+  border:$my-border;
+  border-color: white;
+  background: red;
+ //FIX vertical-align:
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+div{
+  //FIX display:
+  border:$my-border;
+  border-color: white;
+  background: yellow;
+  color: black;
+  padding: $padding-cell;
+  height: 200px;
+  line-height: 200px - 2 * $padding-cell;
+  //FIX vertical-align:
+}
+
+.cell{
+  //FIX display:
+  border: $my-border;
+  border-color: green;
+  color: white;           /* WHY ISN'T THE FONT WHITE?? */
+  //FIX margin:
+}
+
+section > div {
+  height: auto;
+}

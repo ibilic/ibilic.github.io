@@ -1,0 +1,47 @@
+.hover,.active,.focus,.bar{
+  box-sizing: border:box;
+  border: 6px solid black;
+  padding: 5%;
+  margin: 20px
+}
+
+img{ position: relative; width: 16%;}
+
+.hover:hover{
+ border-radius: 40%;
+}
+
+.active:active{
+ opacity: 0.5;}
+
+.focus:active{
+ box-shadow: 40px;
+ border: 15x solid;
+ padding: 10px;
+ box-shadow: 5px 10px 5px 5px #888888;
+}
+
+.bar{
+  height: 50px;
+  padding: 10px 0;
+  background: grey;
+  border: none;
+}
+
+.square{
+  box-sizing: border-box;
+  background: red;
+  height: 50px;
+  width: 50px;
+  -webkit-animation-name: box; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: box;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  position: relative;
+
+}
+@keyframes box {
+   from {left: 0px; background-color: yellow; 	-webkit-transform:rotate(0deg);}
+    to {left: calc(100% - 50px); background-color: blue;-webkit-transform:rotate(360deg);}
+}

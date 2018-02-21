@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  border: 6px solid black;
+  height: 100vh;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(2, 50%); }
+
+section {
+  border: 6px solid black;
+  border-color: white;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+div {
+  border: 6px solid black;
+  border-color: white;
+  background: yellow;
+  color: black;
+  padding: 10px;
+  height: 200px;
+  line-height: 180px; }
+
+.cell {
+  border: 6px solid black;
+  border-color: green;
+  color: white;
+  /* WHY ISN'T THE FONT WHITE?? */ }
+
+section > div {
+  height: auto; }
+
+/*# sourceMappingURL=main.css.map */
