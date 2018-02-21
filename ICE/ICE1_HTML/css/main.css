@@ -53,6 +53,7 @@ li a:hover {
 #page > header {
   grid-area: head;
   background-color: #8ca0ff;
+  text-align: center;
 }
 
 #page > nav {
