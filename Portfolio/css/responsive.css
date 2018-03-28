@@ -4,7 +4,7 @@ body{margin:0;}
 .navigation-bar{
   top: unset;
   bottom: 0;
-  background: lightgrey;
+  background: #f9f9f9;
 }
   .navigation-bar ul{
     display: flex;
