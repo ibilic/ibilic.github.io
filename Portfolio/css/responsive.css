@@ -9,6 +9,7 @@ body{margin:0;}
   .navigation-bar ul{
     display: flex;
     flex-wrap: nowrap;
+    flex:1;
     padding: 0;
   }
   .navigation-bar a{
