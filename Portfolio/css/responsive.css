@@ -1,5 +1,7 @@
 
 @media only screen and (max-width: 650px){
+  main {
+    margin-top: 0px;}
 .navigation-bar{
   top: unset;
   bottom: 0;

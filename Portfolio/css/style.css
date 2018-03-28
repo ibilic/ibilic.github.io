@@ -100,15 +100,21 @@ nav li  {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background: grey;
+  background: url("https://media.giphy.com/media/xNrM4cGJ8u3ao/giphy.gif");
   padding: 8% 0%;
 }
 
 .intro .col{
-  background: lightblue;
+  background: #ffffff7a;
   margin: 20px 100px;
   box-sizing: border-box;
   flex: 1;
+}
+
+.prog{
+  padding: 50px;
+  background: #efefef;
+  text-align: center;
 }
 
 .flex-grid-thirds {
@@ -127,7 +133,6 @@ nav li  {
 }
 
 footer{
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
