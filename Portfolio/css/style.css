@@ -1,28 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:500');
 
 
+body{margin:0;}
 
-.content-container {
+.page{
   display: flex;
-  flex-flow: row nowrap;
-  font-weight: bold;
-  text-align: center;
-  justify-content: center;
+  flex-direction: column;
 }
 
-.content-container > * {
-  padding: 10px;
-  flex: 1 100%;
+.page > * {
+  flex: 1 1 auto;
 }
-div{border: 1px black;}
 
-main {margin-top: 100px;}
+main {margin-top: 60px;}
 /* */
 nav{
   width: 100%;
   position: fixed;
-  top:50px;
   text-align:center;
+  background: #ffffff7a;
 }
 nav a{
   font-family: 'Oswald', sans-serif;
@@ -90,27 +86,42 @@ nav {
   display: flex;
   justify-content: center;
 }
-
 nav a {
       text-decoration: none;
     }
-
 nav li  {
-display: inline-flex;
-flex: 1;
-justify-content: center;
+  display: inline-flex;
+  flex: 1;
+  justify-content: center;
 }
 
+
+.intro{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: grey;
+  padding: 8% 0%;
+}
+
+.intro .col{
+  background: lightblue;
+  margin: 20px 100px;
+  box-sizing: border-box;
+  flex: 1;
+}
 
 .flex-grid-thirds {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 
 }
 .flex-grid-thirds .col {
   background: lightgrey;
   margin: 20px;
+  padding: 20px;
   box-sizing: border-box;
   flex: 1 1 auto;
 }
@@ -123,13 +134,4 @@ footer{
   background-color: red;
   color: white;
   text-align: center;
-}
-
-.page{
-  display: flex;
-  flex-direction: column;
-}
-
-.page > * {
-  flex: 1 1 auto;
 }
