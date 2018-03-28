@@ -3,11 +3,11 @@
 .navigation-bar{
   top: unset;
   bottom: 0;
+  background: lightgrey;
 }
   .navigation-bar ul{
     padding: 0;
   }
-  .navigation-bar li{background: lightgrey;}
   .navigation-bar a{
     font-size: 100%;
   }
