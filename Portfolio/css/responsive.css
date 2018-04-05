@@ -4,13 +4,6 @@
 /* @media only screen and (min-width: 650px){ */
 
 
-@media only screen and (min-width:900px){
-  .flex-grid-thirds .col {
-    width: 25%;
-    height: 300px;
-    }
-}
-
 @media only screen and (max-width: 650px){
   main {
     margin-top: 0px;}
@@ -30,4 +23,11 @@
   }
   .navigation-bar .logo{display: none; }
   footer{display: none;}
+}
+
+@media only screen and (min-width:650px){
+  .flex-grid-thirds .col {
+    width: 25%;
+    height: 300px;
+    }
 }
