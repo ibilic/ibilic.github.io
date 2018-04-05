@@ -81,6 +81,11 @@ nav a:hover:before{
   }
 }
 
+header{
+  display: flex;
+  justify-content: center;
+}
+
 .navigation-bar .current{
   font-size: 25px;
   border-bottom: 2px solid blue;
