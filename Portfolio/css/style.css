@@ -81,6 +81,12 @@ nav a:hover:before{
   }
 }
 
+.navigation-bar .current{
+  font-size: 25px;
+  border-bottom: 2px solid blue;
+}
+
+
 .logo{display: inline-block;}
 
 nav {
