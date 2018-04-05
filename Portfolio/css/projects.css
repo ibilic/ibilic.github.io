@@ -1,0 +1,13 @@
+.prog{
+  /* padding: 0px 0px; */
+}
+
+.flex-grid-thirds .col {
+    /* margin: 0px; */
+    width: 25%;
+    height: 300px;
+}
+
+#first, #third, #five {
+  background: blue;
+}
