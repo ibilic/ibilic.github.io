@@ -28,6 +28,16 @@ header{bottom:0;}
   .navigation-bar .logo{display: none; }
   .prog{padding: 20px 0px;}
 
+#coder, #designer{
+  background-image: none;
+  color: black;}
+.intro{height: auto;}
+
+#coder h2, #designer h2{margin:auto; color:black; font-size: 15px; text-align: center;}
+
+
+
+
   footer{display: none;}
 }
 
