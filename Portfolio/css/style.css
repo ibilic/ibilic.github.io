@@ -119,14 +119,24 @@ nav li  {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* background: url("https://media.giphy.com/media/xNrM4cGJ8u3ao/giphy.gif"); */
-  margin: 15% 0%;
+  margin: 10% 0%;
+  height: 400px;
 }
 
 .intro .col{
   background: #ffffff7a;
   box-sizing: border-box;
   flex: 1;
+}
+
+#designer {
+  background: url(https://ibilic.github.io/Portfolio/img/creative.png);
+  background-size: 100% 100%;
+}
+
+#coder {
+  background: url(https://ibilic.github.io/Portfolio/img/code.png);
+  background-size: 100% 100%;
 }
 
 .prog{
