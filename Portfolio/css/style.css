@@ -16,7 +16,6 @@ main {margin-top: 60px;}
 /* */
 nav{
   width: 100%;
-  position: fixed;
   text-align:center;
   background: #ffffff7a;
   z-index: 1
@@ -89,16 +88,18 @@ header{
   text-align: center;
   background: #ffffff7a;
   z-index: 1;
+  flex-wrap: wrap;
 }
 
 .navigation-bar .current{
-  font-size: 25px;
+  font-size: 22px;
   border-bottom: 2px solid blue;
 }
 
 
-.logo{display: inline-block;}
-
+.logo{display: inline-block;
+      width:100%;}
+.logo img{margin-top:20px;}
 nav {
   display: flex;
   justify-content: center;
