@@ -17,7 +17,6 @@ main {margin-top: 60px;}
 nav{
   width: 100%;
   text-align:center;
-  background: #ffffff7a;
   z-index: 1
 }
 nav a{
@@ -89,6 +88,8 @@ header{
   background: #ffffff7a;
   z-index: 1;
   flex-wrap: wrap;
+  background: #ffffff80;
+
 }
 
 .navigation-bar .current{
@@ -218,7 +219,7 @@ footer{
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: #2e3192;
   color: white;
   text-align: center;
 }
