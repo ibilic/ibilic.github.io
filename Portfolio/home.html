@@ -12,14 +12,14 @@
 
   <header>
     <!-- <div><a href="#">Ilma Bilic</a></div> -->
-    <div class="logo"><a tabindex="1" href="/Portfolio/home.html"><img src="https://ibilic.github.io/Portfolio/img/ibLogo.png" alt="IB logo" width="50"></a></div>
+    <div class="logo"><a href="/Portfolio/home.html"><img src="https://ibilic.github.io/Portfolio/img/ibLogo.png" alt="IB logo" width="50"></a></div>
 
   <nav class="navigation-bar">
     <ul>
-      <li><a class="current" aria-current="page" href="/Portfolio/home.html" tabindex="2">Home</a></li>
-      <li><a href="/Portfolio/projects.html" tabindex="3">Projects</a></li>
-      <li><a href="/Portfolio/resume.html" tabindex="4">Resume</a></li>
-      <li><a href="/Portfolio/contact.html" tabindex="5">Contact</a></li>
+      <li><a class="current" aria-current="page" href="/Portfolio/home.html">Home</a></li>
+      <li><a href="/Portfolio/projects.html">Projects</a></li>
+      <li><a href="/Portfolio/resume.html">Resume</a></li>
+      <li><a href="/Portfolio/contact.html">Contact</a></li>
     </ul>
   </nav>
   </div>
@@ -29,11 +29,13 @@
 <main>
 
   <div class="intro">
-    <div id="designer" class="col" style="opacity: 1;">
+    <div id="designer" class="col" style="opacity: 1; background: blue;
+margin-right: 20px;" >
 			<h1>designer</h1>
   		<p>Design is love, design is life.</p>
 		</div>
-    <div id="coder" class="col" style="opacity: 1;">
+    <div id="coder" class="col" style="opacity: 1; background: blue;
+margin-left: 20px; padding: 0 20px; ">
       <h1>coder</h1>
       <p>Code is love, code is life.</p>
     </div>
@@ -44,48 +46,57 @@
       <div class="flex-grid-thirds">
 
         <div class="col">
-          <h3>Project 1</h3>
-            <p>This is about project 1.</p>
+           <img src="https://ibilic.github.io/Portfolio/img/snap.png" alt="sample72" class='image'/>
+          <div  class='text'>
+            <h3>$napmoney</h3>
+            <p>Worked with my team to identify users satisfaction with Snapchat.</p>
+            <button>Learn more</button>
+          </div>
         </div>
 
         <div class="col">
            <img src="https://ibilic.github.io/Portfolio/img/snap.png" alt="sample72" class='image'/>
           <div  class='text'>
-            <h3>Project 1</h3>
-            <p>This is about project 1.</p>
+            <h3>$napmoney</h3>
+            <p>Worked with my team to identify users satisfaction with Snapchat.</p>
             <button>Learn more</button>
           </div>
         </div>
 
 
         <div class="col">
-          <h3>Project 3</h3>
-            <p>This is about project 3.</p>
+           <img src="https://ibilic.github.io/Portfolio/img/snap.png" alt="sample72" class='image'/>
+          <div  class='text'>
+            <h3>$napmoney</h3>
+            <p>Worked with my team to identify users satisfaction with Snapchat.</p>
+            <button>Learn more</button>
+          </div>
         </div>
-      </div>
 </div>
 </main>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
 
-<div class="contact">
-      <h2>Let's Connect</h2><br>
-      <div class="flex-grid-thirds">
-        <div class="icon" tabindex="6">
-          <i style="font-size:3em;" class="fas fa-envelope"></i>
-        </div>
-        <div class="icon" tabindex="7">
-          <i style="font-size:3em;" class="fab fa-linkedin" size='5'></i>
-        </div>
-        <div class="icon" tabindex="8">
-          <i style="font-size:3em" class="fab fa-github-square"></i>
-        </div>
-      </div>
-</div>
 
   <footer>
-    &copy;  Heloffg
-    <i class="fab fa-linkedin"></i>
+    <div class="contact">
+          <h2>Let's Connect</h2><br>
+          <div class="flex-grid-thirds">
+            <div class="icon">
+              <a href="mailto:spamemail@gmail.com">
+              <i style="font-size:3em; color:white;" class="fas fa-envelope"></i></a>
+            </div>
+            <div class="icon">
+              <a href="https://www.linkedin.com/in/ilma-bilic-05001510a">
+              <i style="font-size:3em; color:white;" class="fab fa-linkedin" size='5'></i></a>
+            </div>
+            <div class="icon">
+              <a href="https://github.com/ibilic">
+              <i style="font-size:3em; color:white" class="fab fa-github-square"></i></a>
+            </div>
+          </div>
+    </div>
+    &copy;  Ilma Bilic
   </footer>
 
 </div>

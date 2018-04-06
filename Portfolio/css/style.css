@@ -120,12 +120,11 @@ nav li  {
   justify-content: space-between;
   flex-wrap: wrap;
   /* background: url("https://media.giphy.com/media/xNrM4cGJ8u3ao/giphy.gif"); */
-  padding: 8% 0%;
+  margin: 15% 0%;
 }
 
 .intro .col{
   background: #ffffff7a;
-  margin: 20px 100px;
   box-sizing: border-box;
   flex: 1;
 }
@@ -166,7 +165,7 @@ nav li  {
   width: 100%;
   opacity: 0;
   transition: .1s ease;
-  background-color: lightgrey;
+  background-color: #848484;
 }
 .col:hover .text {
   opacity: 1;
@@ -219,6 +218,7 @@ footer{
   left: 0;
   bottom: 0;
   width: 100%;
+  padding:20px 0;
   background-color: #2e3192;
   color: white;
   text-align: center;
@@ -226,7 +226,8 @@ footer{
 
 .contact{
   padding: 50px;
-  background: #2e3192;
+  /* background: #abacbfb3; */
+  background:#2e3192;
   text-align: center;
 }
 
