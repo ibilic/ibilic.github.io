@@ -1,21 +1,23 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
-
+    <!-- <link rel="stylesheet" type="text/css" href="css/projects.css"> -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
   <header>
-  <nav class="navigation-bar">
-    <div><a href="#">Ilma Bilic</a></div>
+    <!-- <div><a href="#">Ilma Bilic</a></div> -->
+    <div class="logo"><a href="/Portfolio/home.html"><img src="https://ibilic.github.io/Portfolio/img/ibLogo.png" alt="IB logo" width="50"></a></div>
 
-    <!-- <div class="logo"><a href=""><img src="logo.png"></a></div> -->
+  <nav class="navigation-bar">
     <ul>
       <li><a href="/Portfolio/home.html">Home</a></li>
-      <li><a href="/Portfolio/projects.html">Projects</a></li>
+      <li><a class="current" aria-current="page" href="/Portfolio/projects.html">Projects</a></li>
       <li><a href="/Portfolio/resume.html">Resume</a></li>
       <li><a class="current" href="/Portfolio/contact.html">Contact</a></li>
     </ul>
@@ -26,16 +28,47 @@
 <div class="res-page">
 <main>
 
-  <div class="res">
-  		<iframe src="https://drive.google.com/file/d/1f1F_0Ih8TVp2aKGKb2me6FX0vtWooaze/preview" width="640" height="480"></iframe>
-	</div>
+  <div class="prog">
+    <h2>Connect with me!</h2><br>
+    <div class="flex-grid-thirds">
 
+      <div class="col">
+        <p>Do or do not there is no try. -Yoda</p>
+      </div>
+
+      <div class="col">
+         <img src="https://ibilic.github.io/Portfolio/img/eye.jpg" alt="eyeball" class='image'/>
+        <div  class='text'>
+          <h3>$napmoney</h3>
+          <p>Worked with my team to identify users satisfaction with Snapchat.</p>
+          <button>Learn more</button>
+        </div>
+      </div>
+
+  </div>
 
 </main>
 
-  <footer>
-    &copy;  Heloffg
-  </footer>
+<footer>
+  <div class="contact">
+        <h2>Let's Connect</h2><br>
+        <div class="flex-grid-thirds">
+          <div class="icon">
+            <a href="mailto:spamemail@gmail.com">
+            <i style="font-size:3em; color:white;" class="fas fa-envelope"></i></a>
+          </div>
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/ilma-bilic-05001510a">
+            <i style="font-size:3em; color:white;" class="fab fa-linkedin" size='5'></i></a>
+          </div>
+          <div class="icon">
+            <a href="https://github.com/ibilic">
+            <i style="font-size:3em; color:white" class="fab fa-github-square"></i></a>
+          </div>
+        </div>
+  </div>
+  &copy;  Ilma Bilic
+</footer>
 
 </div>
 
