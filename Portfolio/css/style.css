@@ -257,3 +257,8 @@ footer{
 .flex-grid-thirds .icon {
   flex: 1 1 auto;
 }
+
+i{
+   font-size:3em;
+   color: white;
+}
