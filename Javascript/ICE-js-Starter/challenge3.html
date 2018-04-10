@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,47 +41,3 @@
 </form>
 </body>
 </html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Challenge 3</title>
-    <script type="text/javascript">
-    function checkForm(){
-
-		var radio1 = document.getElementById('opt-straw').checked;
-		var radio2 = document.getElementById('opt-blue').checked;
-
-		if(radio1 || radio2){
-			console.log('Success')
-			return true; //prevent form submission
-		} else{
-			console.log('Fail')
-			return false;
-		}
-
-		}
-    </script>
-</head>
-<body>
-  <h1> Challenge 3</h1>
-	 <form action="challenge4.html"
-        onsubmit= "return checkForm()">
-      <fieldset>
-        <legend>Radio buttons and Check Boxes</legend>
-        <div>
-          What's your favorite berry?:
-          <label>
-            <input type="radio" name="fruit" value = "s" id="opt-straw"> Strawberries
-          </label>
-          <label>
-            <input type="radio" name="fruit" value = "b" id="opt-blue"> Blueberries
-        </label>
-      </div>
-  </fieldset>
-  <input type="submit" value="Pick your fruit!">
-</form>
-</body>
-</html>
->>>>>>> 1f233bb4a7ad2ed5a38e186a24d4566a1282caf8
