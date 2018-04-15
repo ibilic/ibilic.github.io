@@ -1,0 +1,129 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <header>
+    <!-- <div><a href="#">Ilma Bilic</a></div> -->
+    <div class="logo"><img src="https://ibilic.github.io/Portfolio/img/ibLogo.png" alt="IB logo" width="50"></div>
+
+  <nav class="navigation-bar">
+    <ul>
+      <li><a href="/home.html" class="{% if page.url == '/home.html' %}current{% endif %}">Home</a></li>
+      <li><a href="/work.html" class="{% if page.url == '/work.html' %}current{% endif %}">Projects</a></li>
+      <li><a href="/resume.html" class="{% if page.url == '/resume.html' %}current{% endif %}">Resume</a></li>
+      <li><a href="/contact.html" class="{% if page.url == '/contact.html' %}current{% endif %}">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<style>
+nav{
+  width: 100%;
+  text-align:center;
+  z-index: 1
+}
+nav a{
+  font-family: 'Oswald', sans-serif;
+  font-weight:500;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:#16151b;
+  margin:0 15px;
+  font-size:16px;
+  letter-spacing:1px;
+  position:relative;
+  display:inline-block;
+}
+nav a:before{
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background:#16151b;
+  top:47%;
+  animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
+nav a:hover:before{
+  animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+
+}
+@keyframes in{
+  0%{
+    width: 0;
+    left:0;
+    right:auto;
+  }
+  100%{
+    left:0;
+    right:auto;
+    width: 100%;
+  }
+}
+@keyframes out{
+  0%{
+    width:100%;
+    left: auto;
+    right: 0;
+  }
+  100%{
+    width: 0;
+    left: auto;
+    right: 0;
+  }
+}
+@keyframes show{
+  0%{
+    opacity:0;
+    transform:translateY(-10px);
+  }
+  100%{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  background: #ffffff7a;
+  z-index: 1;
+  flex-wrap: wrap;
+  background: #ffffff80;
+
+}
+
+.navigation-bar .current{
+  font-size: 22px;
+  border-bottom: 2px solid blue;
+}
+
+
+.logo{display: inline-block;
+      width:100%;}
+.logo img{margin-top:20px;}
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav a {
+      text-decoration: none;
+    }
+nav li  {
+  display: inline-flex;
+  flex: 1;
+  justify-content: center;
+}
+</style>
+
+</html>
