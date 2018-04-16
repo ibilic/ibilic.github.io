@@ -21,12 +21,35 @@
 </header>
 
 <body>
-  <div class="col">
-     <img src="https://ibilic.github.io/webDesignExam/images/examPic.JPG" alt="colleen">
+  <div class="images">
+  <div class="col" id="left">
+     <img class='left' src="https://ibilic.github.io/webDesignExam/images/examPic.JPG" alt="colleen">
   </div>
-  <div class="col">
+  <div class="col" id="right">
      <img src="https://ibilic.github.io/webDesignExam/images/UMSI-logo.jpg" alt="UMSI-logo">
   </div>
+</div>
+
+
+<button onclick="hide()">Hide Image</button>
+<button onclick="show()">Show Image</button>
+
+<script>
+function show() {
+    var x = document.getElementById("left");
+    if (x.style.display === "none") {
+        x.style.display = "block"; }
+
+}
+function hide(){
+  var x = document.getElementById("left");
+  x.style.display = "none";
+  var y = document.getElementById("right");
+  y.style.margin = "auto";
+}
+
+</script>
+
 </body>
 
 <footer>

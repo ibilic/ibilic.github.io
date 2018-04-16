@@ -1,5 +1,19 @@
 .col{
-  display: flex;
-  border: 2px solid blue;
+  border: 5px solid blue;
+  width: 50%;
+  padding: 5%;
+  box-sizing: border-box;
 
+}
+
+img{margin: auto;
+
+  }
+
+div{
+  display: flex;
+}
+
+body{
+  background-image: url("/webDesignExam/images/halftone-yellow.png");
 }
